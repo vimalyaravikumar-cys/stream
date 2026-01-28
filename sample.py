@@ -11,8 +11,7 @@ st.divider()
 
 st.subheader("Ticket Details:")
 ticket = st.number_input("Enter no of tickets:")
-if st.button("Next")
+st.button("Next")
 st.divider()
-
 
 
