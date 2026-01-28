@@ -10,7 +10,7 @@ if st.button("Submit", key="btn1"):
 st.divider()
 
 st.subheader("Ticket Details:")
-ticket = st.number_input("Enter no of tickets:")
+ticket = st.number_input("Enter no of tickets:",min_value=1)
 if st.button("Next"):
    st.write("NO Of Tickets:")
 st.divider()
