@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("BOOKING TICKETS")
-st.header("HELLO ARMY")
+st.write("HELLO")
 st.subheader("Basic Details:")
 name1 = st.text_input("Enter Your Name:",key = "name1")
 age1= st.number_input("Enter Your Age:",min_value=1,key = "age1")
